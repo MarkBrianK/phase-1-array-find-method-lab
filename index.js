@@ -4,7 +4,7 @@ const record = [
         {year:"2013", result: "N/A"}
     ]
 function superbowlWin(output){
-    for (const object of output){
+    for (let object of output){
         if(object.result ==="W"){
             return object.year
 
